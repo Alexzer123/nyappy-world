@@ -1,1 +1,69 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+header .info-content,
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .info-content {
+  background-color: #8cc833;
+}
+
+header .info-content ul {
+  padding: 5px 0;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+header .info-content ul li {
+  text-align: center;
+}
+
+header .info-content ul li:nth-child(1) {
+  width: 20%;
+}
+
+header .info-content ul li:nth-child(2) {
+  width: 80%;
+}
+
+header .logo img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
+
+header .menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header .menu nav ul {
+  margin: 10px 20px;
+}
+
+header .menu nav ul li {
+  display: inline-block;
+}
+
+footer {
+  height: 1500px;
+}
+/*# sourceMappingURL=styles.css.map */
