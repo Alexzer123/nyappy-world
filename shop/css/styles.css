@@ -1,9 +1,21 @@
+header .menu nav ul li a::before, header .menu nav ul li::before, header .menu nav ul li::after {
+  content: '';
+  position: absolute;
+  height: 33.33%;
+  width: 0;
+  background-color: #14aef4;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
 body {
   margin: 0;
   padding: 0;
+  background-color: dimgray;
 }
 
-header {
+header,
+footer {
   margin: 0;
   padding: 0;
 }
@@ -27,7 +39,6 @@ header .info-content {
 header .info-content ul {
   padding: 5px 0;
   margin: 0 10px;
-  font-size: 24px;
 }
 
 header .info-content ul li {
@@ -36,23 +47,19 @@ header .info-content ul li {
 
 header .info-content ul li:nth-child(1) {
   width: 20%;
+  font-size: 24px;
 }
 
 header .info-content ul li:nth-child(2) {
   width: 80%;
+  font-size: 18px;
 }
 
-header .logo img {
+header img.logo {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 300px;
   height: auto;
-}
-
-header .menu {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 header .menu nav ul {
@@ -60,7 +67,50 @@ header .menu nav ul {
 }
 
 header .menu nav ul li {
-  display: inline-block;
+  list-style: none;
+  position: relative;
+  padding: 10px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .menu nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #8cc833;
+  text-decoration: none;
+  padding: 10px 20px;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  z-index: 1;
+}
+
+header .menu nav ul li a::before {
+  left: 0;
+  bottom: 66.66%;
+}
+
+header .menu nav ul li::before {
+  right: 0;
+  bottom: 33.33%;
+}
+
+header .menu nav ul li::after {
+  left: 0;
+  bottom: 0;
+}
+
+header .menu nav ul li:hover a {
+  color: #ffc419;
+}
+
+header .menu nav ul li:hover a::before {
+  width: 100%;
+}
+
+header .menu nav ul li:hover::after, header .menu nav ul li:hover::before {
+  width: 100%;
 }
 
 footer {
