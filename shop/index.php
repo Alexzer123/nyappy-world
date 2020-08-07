@@ -1,6 +1,9 @@
 <?php include('function/header.php'); ?>
 
-<header> <?php include('include/header.php'); ?> </header>
+<header> <?php include('include/b-header.php'); ?>
+</header>
+
+<?php include('include/b-mews.php'); ?>
 
 <footer></footer>
 
