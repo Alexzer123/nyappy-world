@@ -11,7 +11,6 @@ header .menu nav ul li a::before, header .menu nav ul li::before, header .menu n
 body {
   margin: 0;
   padding: 0;
-  background-color: dimgray;
 }
 
 header,
@@ -111,6 +110,36 @@ header .menu nav ul li:hover a::before {
 
 header .menu nav ul li:hover::after, header .menu nav ul li:hover::before {
   width: 100%;
+}
+
+.b-news {
+  padding: 10px 50px;
+  background-color: #cf8bbe;
+}
+
+.b-news .news-card {
+  margin: 0 15px;
+  background-color: #8cc833;
+}
+
+.b-news .news-card .news-card-img-top {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.b-news .news-card .news-card-body {
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+.b-news .news-card .news-card-body .news-card-title {
+  font-weight: bold;
+}
+
+.b-news .news-card .news-card-body .news-card-text {
+  font-weight: 600;
 }
 
 footer {

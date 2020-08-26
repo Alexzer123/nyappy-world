@@ -18,7 +18,6 @@ $color5: #f60295;
 body {
     margin: 0;
     padding: 0;
-    background-color: dimgray;
 }
 
 header,
@@ -120,6 +119,36 @@ header {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+.b-news {
+    padding: 10px 50px;
+    background-color: $color4;
+
+    .news-card {
+        margin: 0 15px;
+        background-color: $color3;
+
+        .news-card-img-top {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .news-card-body {
+            padding: 0 10px;
+            font-size: 24px;
+
+            .news-card-title {
+                font-weight: bold;
+            }
+
+            .news-card-text {
+                font-weight: 600;
             }
         }
     }

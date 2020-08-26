@@ -15,7 +15,7 @@
     </ul> <!-- /.address -->
 </div> <!-- /.info-content -->
 
-<img src="img/1.jpg" class="logo" alt="">
+<img src="img/logo.jpg" class="logo" alt="">
 
 <div class="menu">
     <nav>
