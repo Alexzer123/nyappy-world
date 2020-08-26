@@ -3,7 +3,9 @@
 <header> <?php include('include/b-header.php'); ?>
 </header>
 
-<?php include('include/b-mews.php'); ?>
+<?php include('include/b-news.php'); ?>
+
+<?php include('include/b-random-products.php'); ?>
 
 <footer></footer>
 
