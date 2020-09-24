@@ -5,6 +5,7 @@
 
             <div class="product-card">
                 <a class="produсt-card-link" href="">
+
                     <div class="produсt-card-layer"></div> <!-- /.produсt-card-layer -->
 
                     <div class="product-card-content">
@@ -16,6 +17,7 @@
                             <span class="product-card-price"> Price </span> <!-- /.product-card-price -->
                         </div> <!-- /.product-card-body -->
                     </div> <!-- /.product-card-content -->
+                    
                 </a> <!-- /.produсt-card-link -->
             </div> <!-- /.product-card -->
 

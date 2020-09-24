@@ -17,7 +17,7 @@
 
 <img src="img/logo.jpg" class="logo" alt="">
 
-<div class="menu">
+<div class="header-menu">
     <nav>
         <ul>
             <li> <a href="#"> Home </a> </li>

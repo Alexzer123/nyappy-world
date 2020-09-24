@@ -15,13 +15,8 @@ $color5: #f60295;
     transition: .4s ease;
 }
 
+// общие стили
 body {
-    margin: 0;
-    padding: 0;
-}
-
-header,
-footer {
     margin: 0;
     padding: 0;
 }
@@ -61,11 +56,11 @@ header {
     img.logo {
         display: block;
         margin: 10px auto;
-        width: 300px;
+        width: 200px;
         height: auto;
     }
 
-    .menu {
+    .header-menu {
         nav {
             ul {
                 margin: 10px 20px;
@@ -124,6 +119,37 @@ header {
     }
 }
 
+footer {
+    padding: 20px 5px 10px;
+
+    .footer-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        li {
+            list-style: none;
+            text-align: center;
+
+            .link {
+                display: block;
+                padding: 10px 20px;
+                margin: 5px auto;
+                font-size: 18px;
+                color: $color5;
+                background-color: $color2;
+                text-decoration: none;
+                transition: 0.5s;
+
+                &:hover {
+                    background-color: $color1;
+                }
+            }
+        }
+    }
+}
+
+// стили для index.php
 .b-news {
     padding: 10px 50px;
     background-color: $color4;
@@ -209,6 +235,41 @@ header {
                     color: $color5;
                 }
             }
+        }
+    }
+}
+
+// стили дая крточки товаров (страника)
+.b-product-card {
+    padding: 50px 30px;
+
+    .product-info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .product-info-imgs {
+            .product-info-img {
+                margin: 0 auto;
+                display: block;
+                width: 300px;
+                height: auto;
+            }
+
+            .product-info-imgs-thumbnail {
+                margin: 20px 10px;
+
+                .product-info-img-thumbnail {
+                    padding: 0 5px;
+                    width: 150px;
+                    height: auto;
+                }
+            }
+        }
+
+        .product-info-content0 {
+            width: 100%;
+            margin: 0 50px;
         }
     }
 }
