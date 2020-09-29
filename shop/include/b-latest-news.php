@@ -1,4 +1,4 @@
-<div class="b-news">
+<div class="b-latest-news">
     <div class="container-fluid no-gutters">
         <div class="news-slider">
 

@@ -150,7 +150,8 @@ footer {
 }
 
 // стили для index.php
-.b-news {
+// свежие новости
+.b-latest-news {
     padding: 10px 50px;
     background-color: $color4;
 
@@ -180,6 +181,7 @@ footer {
     }
 }
 
+// случайные товары
 .b-random-products {
     padding: 10px 20px;
 
@@ -239,16 +241,27 @@ footer {
     }
 }
 
-// стили дая крточки товаров (страника)
+// стили дая крточки товара (страника)
 .b-product-card {
-    padding: 50px 30px;
+    padding: 20px 30px;
+
+    .product-info-title {
+        margin: 0 0 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: $color5;
+    }
 
     .product-info {
+        margin: 5px 0 0;
         display: flex;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: space-around;
 
         .product-info-imgs {
+            width: 500px;
+
             .product-info-img {
                 margin: 0 auto;
                 display: block;
@@ -257,19 +270,48 @@ footer {
             }
 
             .product-info-imgs-thumbnail {
+                width: 100%;
                 margin: 20px 10px;
 
                 .product-info-img-thumbnail {
-                    padding: 0 5px;
-                    width: 150px;
+                    margin: 0 5px;
+                    width: 100px;
                     height: auto;
                 }
             }
         }
 
         .product-info-content0 {
-            width: 100%;
+            width: 600px;
             margin: 0 50px;
+        }
+    }
+}
+
+// стили дая крточки новости (страника)
+.b-news-card {
+    padding: 5px;
+
+    .news-info {
+        .news-info-title {
+            margin: 0 0 20px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            color: $color5;
+        }
+
+        .news-info-content {
+            .news-info-img {
+                margin: 10px 0 20px;
+                width: 600px;
+                height: auto;
+            }
+
+            .news-info-text {
+                padding: 0 30px;
+                font-size: 21px;
+            }
         }
     }
 }

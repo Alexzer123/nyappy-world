@@ -143,33 +143,33 @@ footer .footer-menu li .link:hover {
   background-color: #ffc419;
 }
 
-.b-news {
+.b-latest-news {
   padding: 10px 50px;
   background-color: #cf8bbe;
 }
 
-.b-news .news-card {
+.b-latest-news .news-card {
   margin: 0 15px;
   background-color: #8cc833;
 }
 
-.b-news .news-card .news-card-img-top {
+.b-latest-news .news-card .news-card-img-top {
   display: block;
   margin: 0 auto;
   width: 100%;
   height: auto;
 }
 
-.b-news .news-card .news-card-body {
+.b-latest-news .news-card .news-card-body {
   padding: 0 10px;
   font-size: 24px;
 }
 
-.b-news .news-card .news-card-body .news-card-title {
+.b-latest-news .news-card .news-card-body .news-card-title {
   font-weight: bold;
 }
 
-.b-news .news-card .news-card-body .news-card-text {
+.b-latest-news .news-card .news-card-body .news-card-text {
   font-weight: 600;
 }
 
@@ -235,19 +235,31 @@ footer .footer-menu li .link:hover {
 }
 
 .b-product-card {
-  padding: 50px 30px;
+  padding: 20px 30px;
+}
+
+.b-product-card .product-info-title {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #f60295;
 }
 
 .b-product-card .product-info {
+  margin: 5px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.b-product-card .product-info .product-info-imgs {
+  width: 500px;
 }
 
 .b-product-card .product-info .product-info-imgs .product-info-img {
@@ -258,17 +270,41 @@ footer .footer-menu li .link:hover {
 }
 
 .b-product-card .product-info .product-info-imgs .product-info-imgs-thumbnail {
+  width: 100%;
   margin: 20px 10px;
 }
 
 .b-product-card .product-info .product-info-imgs .product-info-imgs-thumbnail .product-info-img-thumbnail {
-  padding: 0 5px;
-  width: 150px;
+  margin: 0 5px;
+  width: 100px;
   height: auto;
 }
 
 .b-product-card .product-info .product-info-content0 {
-  width: 100%;
+  width: 600px;
   margin: 0 50px;
+}
+
+.b-news-card {
+  padding: 5px;
+}
+
+.b-news-card .news-info .news-info-title {
+  margin: 0 0 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #f60295;
+}
+
+.b-news-card .news-info .news-info-content .news-info-img {
+  margin: 10px 0 20px;
+  width: 600px;
+  height: auto;
+}
+
+.b-news-card .news-info .news-info-content .news-info-text {
+  padding: 0 30px;
+  font-size: 21px;
 }
 /*# sourceMappingURL=styles.css.map */

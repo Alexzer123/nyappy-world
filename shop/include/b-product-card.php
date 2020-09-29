@@ -1,10 +1,11 @@
 <div class="b-product-card">
+    <h4 class="product-info-title"> Dolore sit aliqua adipisicing et qui eu. </h4> <!-- /.product-info-title -->
     <div class="product-info">
 
         <div class="product-info-imgs">
             <img class="product-info-img" src="img/products/1.jpg" alt="">
 
-            <div class="product-info-imgs-thumbnail row row-cols-5">
+            <div class="product-info-imgs-thumbnail">
                 <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
                 <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
                 <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
