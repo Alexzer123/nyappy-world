@@ -1,70 +1,119 @@
 <div class="b-latest-news">
     <div class="container-fluid no-gutters">
-        <div class="news-slider">
+        <div class="latest-news-slider">
 
-            <div class="news-card">
-                <img src="img/news/1.jpg" alt="" class="news-card-img-top">
+            <div class="latest-news-card">
+                <div class="latest-news-card-front">
+                    <img class="latest-news-card-img" src="img/news/1.jpg" alt="">
+                </div> <!-- /.front -->
 
-                <div class="news-card-body">
-                    <div class="news-card-title"> 1 </div> <!-- /.news-card-title -->
+                <div class="latest-news-card-back">
+                    <div class="latest-news-card-body">
 
-                    <p class="news-card-text"> Aute tempor consequat sunt sint commodo duis dolore culpa aute. </p>
-                    <!-- /.news-card-text -->
-                </div> <!-- /.news-card-body -->
+                        <h4 class="latest-news-card-title"> 1 </h4> <!-- /.news-card-title -->
+
+                        <div class="latest-news-card-text"> Esse sunt est irure laborum est Lorem anim exercitation
+                            veniam.
+                        </div> <!-- /.news-card-text -->
+
+                        <span class="latest-news-card-span"> Last updated 3 mins ago </span> <!-- /.news-card-span -->
+                    </div> <!-- /.news-card-body -->
+                </div> <!-- /.back -->
             </div> <!-- /.news-card -->
 
-            <div class="news-card">
-                <img src="img/news/2.jpg" alt="" class="news-card-img-top">
+            <div class="latest-news-card">
+                <div class="latest-news-card-front">
+                    <img class="latest-news-card-img" src="img/news/2.jpg" alt="">
+                </div> <!-- /.front -->
 
-                <div class="news-card-body">
-                    <div class="news-card-title"> 2 </div> <!-- /.news-card-title -->
+                <div class="latest-news-card-back">
+                    <div class="latest-news-card-body">
 
-                    <p class="news-card-text"> Mollit cupidatat exercitation sint id irure minim fugiat aliqua. </p>
-                    <!-- /.news-card-text -->
-                </div> <!-- /.news-card-body -->
+                        <h4 class="latest-news-card-title"> 2 </h4> <!-- /.news-card-title -->
+
+                        <div class="latest-news-card-text"> Esse sunt est irure laborum est Lorem anim exercitation
+                            veniam.
+                        </div> <!-- /.news-card-text -->
+
+                        <span class="latest-news-card-span"> Last updated 3 mins ago </span> <!-- /.news-card-span -->
+                    </div> <!-- /.news-card-body -->
+                </div> <!-- /.back -->
             </div> <!-- /.news-card -->
 
-            <div class="news-card">
-                <img src="img/news/3.jpg" alt="" class="news-card-img-top">
+            <div class="latest-news-card">
+                <div class="latest-news-card-front">
+                    <img class="latest-news-card-img" src="img/news/3.jpg" alt="">
+                </div> <!-- /.front -->
 
-                <div class="news-card-body">
-                    <div class="news-card-title"> 3 </div> <!-- /.news-card-title -->
+                <div class="latest-news-card-back">
+                    <div class="latest-news-card-body">
 
-                    <p class="news-card-text"> Amet Lorem ea duis mollit consequat eiusmod in pariatur commodo nulla.
-                    </p> <!-- /.news-card-text -->
-                </div> <!-- /.news-card-body -->
+                        <h4 class="latest-news-card-title"> 3 </h4> <!-- /.news-card-title -->
+
+                        <div class="latest-news-card-text"> Esse sunt est irure laborum est Lorem anim exercitation
+                            veniam.
+                        </div> <!-- /.news-card-text -->
+
+                        <span class="latest-news-card-span"> Last updated 3 mins ago </span> <!-- /.news-card-span -->
+                    </div> <!-- /.news-card-body -->
+                </div> <!-- /.back -->
             </div> <!-- /.news-card -->
 
-            <div class="news-card">
-                <img src="img/news/4.jpg" alt="" class="news-card-img-top">
+            <div class="latest-news-card">
+                <div class="latest-news-card-front">
+                    <img class="latest-news-card-img" src="img/news/4.jpg" alt="">
+                </div> <!-- /.front -->
 
-                <div class="news-card-body">
-                    <div class="news-card-title"> 4 </div> <!-- /.news-card-title -->
+                <div class="latest-news-card-back">
+                    <div class="latest-news-card-body">
 
-                    <p class="news-card-text"> Occaecat ut laboris reprehenderit sunt do incididunt id sint consequat.
-                    </p> <!-- /.news-card-text -->
-                </div> <!-- /.news-card-body -->
+                        <h4 class="latest-news-card-title"> 4 </h4> <!-- /.news-card-title -->
+
+                        <div class="latest-news-card-text"> Esse sunt est irure laborum est Lorem anim exercitation
+                            veniam.
+                        </div> <!-- /.news-card-text -->
+
+                        <span class="latest-news-card-span"> Last updated 3 mins ago </span> <!-- /.news-card-span -->
+                    </div> <!-- /.news-card-body -->
+                </div> <!-- /.back -->
             </div> <!-- /.news-card -->
 
-            <div class="news-card">
-                <img src="img/news/5.jpg" alt="" class="news-card-img-top">
+            <div class="latest-news-card">
+                <div class="latest-news-card-front">
+                    <img class="latest-news-card-img" src="img/news/5.jpg" alt="">
+                </div> <!-- /.front -->
 
-                <div class="news-card-body">
-                    <div class="news-card-title"> 5 </div> <!-- /.news-card-title -->
+                <div class="latest-news-card-back">
+                    <div class="latest-news-card-body">
 
-                    <p class="news-card-text"> Qui deserunt consectetur irure Lorem. </p> <!-- /.news-card-text -->
-                </div> <!-- /.news-card-body -->
+                        <h4 class="latest-news-card-title"> 5 </h4> <!-- /.news-card-title -->
+
+                        <div class="latest-news-card-text"> Esse sunt est irure laborum est Lorem anim exercitation
+                            veniam.
+                        </div> <!-- /.news-card-text -->
+
+                        <span class="latest-news-card-span"> Last updated 3 mins ago </span> <!-- /.news-card-span -->
+                    </div> <!-- /.news-card-body -->
+                </div> <!-- /.back -->
             </div> <!-- /.news-card -->
 
-            <div class="news-card">
-                <img src="img/news/6.jpg" alt="" class="news-card-img-top">
+            <div class="latest-news-card">
+                <div class="latest-news-card-front">
+                    <img class="latest-news-card-img" src="img/news/6.jpg" alt="">
+                </div> <!-- /.front -->
 
-                <div class="news-card-body">
-                    <div class="news-card-title"> 6 </div> <!-- /.news-card-title -->
+                <div class="latest-news-card-back">
+                    <div class="latest-news-card-body">
 
-                    <p class="news-card-text"> Tempor fugiat aliqua tempor excepteur commodo veniam esse. </p>
-                    <!-- /.news-card-text -->
-                </div> <!-- /.news-card-body -->
+                        <h4 class="latest-news-card-title"> 6 </h4> <!-- /.news-card-title -->
+
+                        <div class="latest-news-card-text"> Esse sunt est irure laborum est Lorem anim exercitation
+                            veniam.
+                        </div> <!-- /.news-card-text -->
+
+                        <span class="latest-news-card-span"> Last updated 3 mins ago </span> <!-- /.news-card-span -->
+                    </div> <!-- /.news-card-body -->
+                </div> <!-- /.back -->
             </div> <!-- /.news-card -->
 
         </div> <!-- /.news-slider -->

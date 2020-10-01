@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.news-slider').slick({
+    $('.latest-news-slider').slick({
         slidesPerRow: 1,
         slidesToShow: 3,
         slidesToScroll: 3,
