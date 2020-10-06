@@ -3,23 +3,23 @@
 
         <div class="row row-cols-5">
 
-            <div class="product-card">
-                <a class="produсt-card-link" href="">
+            <div class="product-random-card">
+                <a class="produсt-random-card-link" href="">
 
-                    <div class="produсt-card-layer"></div> <!-- /.produсt-card-layer -->
+                    <div class="produсt-random-card-layer"></div> <!-- /.produсt-random-card-layer -->
 
-                    <div class="product-card-content">
-                        <img class="product-card-img-top" src="img/products/1.jpg" alt="">
+                    <div class="product-random-card-content">
+                        <img class="product-random-card-img-top" src="img/products/1.jpg" alt="">
 
-                        <div class="product-card-body">
-                            <span class="product-card-title"> Title </span> <!-- /.product-card-title -->
+                        <div class="product-random-card-body">
+                            <span class="product-random-card-title"> Title </span> <!-- /.product-random-card-title -->
 
-                            <span class="product-card-price"> Price </span> <!-- /.product-card-price -->
-                        </div> <!-- /.product-card-body -->
-                    </div> <!-- /.product-card-content -->
+                            <span class="product-random-card-price"> Price </span> <!-- /.product-random-card-price -->
+                        </div> <!-- /.product-random-card-body -->
+                    </div> <!-- /.product-random-card-content -->
                     
-                </a> <!-- /.produсt-card-link -->
-            </div> <!-- /.product-card -->
+                </a> <!-- /.produсt-random-card-link -->
+            </div> <!-- /.product-random-card -->
 
         </div> <!-- /.row row-cols-4 -->
 
