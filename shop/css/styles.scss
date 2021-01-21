@@ -451,3 +451,148 @@ footer {
         }
     }
 }
+
+// стили для страници товара со своей картинкой
+.b-your-picture {
+    form {
+        .user {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .name,
+            .city {
+                width: 100%;
+                margin: 0 20px;
+
+                label,
+                input {
+                    display: block;
+                    margin: 5px 0;
+                    font-size: 24px;
+                    color: $color5;
+                }
+
+                label {
+                    text-align: center;
+                }
+
+                input {
+                    width: 100%;
+                    padding: 5px 10px;
+                    border: 1px solid $color3;
+                    border-radius: 4px;
+
+                    &:focus {
+                        border-color: $color2;
+                    }
+                }
+            }
+        }
+
+        #products-own-picture {
+            margin: 20px 30px 0;
+
+            .product-own-picture {
+                .product-selection {
+                    select {
+                        display: block;
+                        width: 100%;
+                        max-width: 100%;
+                        padding: 5px 20px;
+                        border: 1px solid $color3;
+                        border-radius: 4px;
+                        margin: 0;
+                        color: $color5;
+                        font-size: 24px;
+                        line-height: normal;
+                        box-sizing: border-box;
+
+                        &:hover {
+                            border-color: $color4;
+                        }
+
+                        &:focus {
+                            border-color: $color2;
+                            outline: none;
+                        }
+                    }
+                }
+
+                .your-picture {
+                    padding: 20px;
+                    margin: 20px auto 0;
+
+                    .image {
+                        img {
+                            display: block;
+                            width: 800px;
+                            height: 600px;
+                            margin: 0 auto;
+                            background-color: $color3;
+                        }
+
+                        input {
+                            display: block;
+                            font-size: 18px;
+                            font-weight: bold;
+                            background-color: $color2;
+                            width: 100%;
+                            padding: 10px 20px;
+                            border: 1px solid;
+                            border-color: $color2;
+                            border-radius: 8px;
+                            margin: 10px auto 0;
+                            transition: 0.5s;
+
+                            &:hover {
+                                background-color: $color3;
+                                border-color: $color4;
+                            }
+                        }
+                    }
+
+                    .image-parameters {
+                        padding: 10px 20px;
+
+                        select {
+                            display: block;
+                            width: 100%;
+                            max-width: 100%;
+                            padding: 5px 20px;
+                            border: 1px solid $color3;
+                            border-radius: 4px;
+                            margin: 0;
+                            color: $color5;
+                            font-size: 24px;
+                            line-height: normal;
+                            box-sizing: border-box;
+
+                            &:hover {
+                                border-color: $color4;
+                            }
+
+                            &:focus {
+                                border-color: $color2;
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        button {
+            display: block;
+            width: 50px;
+            height: auto;
+            padding: 0;
+            border: none;
+            margin: 0 auto;
+            background-color: transparent;
+            color: $color3;
+            font-size: 50px;
+            transition: 0.5s;
+        }
+    }
+}

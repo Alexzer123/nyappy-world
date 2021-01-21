@@ -116,6 +116,6 @@
                 </div> <!-- /.back -->
             </div> <!-- /.news-card -->
 
-        </div> <!-- /.news-slider -->
+        </div> <!-- /.latest-news-slider -->
     </div> <!-- /.container-fluid -->
 </div> <!-- /.b-news -->

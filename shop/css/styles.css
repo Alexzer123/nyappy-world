@@ -459,4 +459,152 @@ footer .footer-menu li .link:hover {
 .b-category .product-card .produсt-card-link:hover .product-card-content .product-card-body {
   color: #f60295;
 }
+
+.b-your-picture form .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.b-your-picture form .user .name,
+.b-your-picture form .user .city {
+  width: 100%;
+  margin: 0 20px;
+}
+
+.b-your-picture form .user .name label,
+.b-your-picture form .user .name input,
+.b-your-picture form .user .city label,
+.b-your-picture form .user .city input {
+  display: block;
+  margin: 5px 0;
+  font-size: 24px;
+  color: #f60295;
+}
+
+.b-your-picture form .user .name label,
+.b-your-picture form .user .city label {
+  text-align: center;
+}
+
+.b-your-picture form .user .name input,
+.b-your-picture form .user .city input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #8cc833;
+  border-radius: 4px;
+}
+
+.b-your-picture form .user .name input:focus,
+.b-your-picture form .user .city input:focus {
+  border-color: #14aef4;
+}
+
+.b-your-picture form #products-own-picture {
+  margin: 20px 30px 0;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .product-selection select {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 5px 20px;
+  border: 1px solid #8cc833;
+  border-radius: 4px;
+  margin: 0;
+  color: #f60295;
+  font-size: 24px;
+  line-height: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .product-selection select:hover {
+  border-color: #cf8bbe;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .product-selection select:focus {
+  border-color: #14aef4;
+  outline: none;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .your-picture {
+  padding: 20px;
+  margin: 20px auto 0;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .your-picture .image img {
+  display: block;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #8cc833;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .your-picture .image input {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #14aef4;
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-color: #14aef4;
+  border-radius: 8px;
+  margin: 10px auto 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .your-picture .image input:hover {
+  background-color: #8cc833;
+  border-color: #cf8bbe;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .your-picture .image-parameters {
+  padding: 10px 20px;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .your-picture .image-parameters select {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 5px 20px;
+  border: 1px solid #8cc833;
+  border-radius: 4px;
+  margin: 0;
+  color: #f60295;
+  font-size: 24px;
+  line-height: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .your-picture .image-parameters select:hover {
+  border-color: #cf8bbe;
+}
+
+.b-your-picture form #products-own-picture .product-own-picture .your-picture .image-parameters select:focus {
+  border-color: #14aef4;
+  outline: none;
+}
+
+.b-your-picture form button {
+  display: block;
+  width: 50px;
+  height: auto;
+  padding: 0;
+  border: none;
+  margin: 0 auto;
+  background-color: transparent;
+  color: #8cc833;
+  font-size: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 /*# sourceMappingURL=styles.css.map */

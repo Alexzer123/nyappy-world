@@ -3,15 +3,27 @@
     <div class="product-info">
 
         <div class="product-info-imgs">
-            <img class="product-info-img" src="img/products/1.jpg" alt="">
+            <a class="product-info-img-link" data-lightbox="product-gallery" href="img/products/1.jpg">
+                <img class="product-info-img" src="img/products/1.jpg" alt="">
+            </a> <!-- /.product-info-img-link -->
 
             <div class="product-info-imgs-thumbnail">
-                <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
-                <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
-                <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
-                <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
-                <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
-            </div> <!-- /.product-info-imgs -->
+                <a class="product-info-img-link" data-lightbox="product-gallery" href="img/products/1.jpg">
+                    <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
+                </a> <!-- /.product-info-img-link -->
+
+                <a class="product-info-img-link" data-lightbox="product-gallery" href="img/products/1.jpg">
+                    <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
+                </a> <!-- /.product-info-img-link -->
+
+                <a class="product-info-img-link" data-lightbox="product-gallery" href="img/products/1.jpg">
+                    <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
+                </a> <!-- /.product-info-img-link -->
+
+                <a class="product-info-img-link" data-lightbox="product-gallery" href="img/products/1.jpg">
+                    <img class="product-info-img-thumbnail" src="img/products/1.jpg" alt="">
+                </a> <!-- /.product-info-img-link -->
+            </div> <!-- /.product-info-imgs-thumbnail -->
         </div> <!-- /.product-info-imgs -->
 
         <div class="product-info-content0">
