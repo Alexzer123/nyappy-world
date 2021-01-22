@@ -283,6 +283,15 @@ footer .footer-menu li .link:hover {
   color: #f60295;
 }
 
+.b-random-products .warning {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f60295;
+  text-align: center;
+}
+
 .b-product-card {
   padding: 20px 30px;
 }

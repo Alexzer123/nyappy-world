@@ -273,6 +273,15 @@ footer {
             }
         }
     }
+
+    .warning {
+        width: 100%;
+        padding: 20px 0;
+        font-size: 30px;
+        font-weight: bold;
+        color: $color5;
+        text-align: center;
+    }
 }
 
 // стили для других страниц
