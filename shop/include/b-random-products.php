@@ -40,7 +40,7 @@
 
         </div> <!-- /.row row-cols-4 -->
 
-        <?php elseif (mysqli_num_rows($result) === 0) : ?>
+        <?php elseif (mysqli_num_rows($result) == 0) : ?>
 
         <div class="warning"> На данный момент, товаров, в данной категории, нет. </div> <!-- /.warning -->
 

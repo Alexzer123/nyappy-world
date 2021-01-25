@@ -149,6 +149,15 @@ footer {
     }
 }
 
+.warning {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: $color5;
+    text-align: center;
+}
+
 // стили для index.php
 // свежие новости
 .b-latest-news {
@@ -193,13 +202,32 @@ footer {
             .latest-news-card-body {
                 width: 100%;
                 height: 100%;
-                padding: 10px 20px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                font-size: 24px;
+                padding: 10px 10px;
+
+                .latest-news-card-title {
+                    text-align: left;
+                    font-size: 24px;
+                }
+
+                .latest-news-card-text,
+                .latest-news-card-detailed {
+                    text-align: center;
+                    font-size: 18px;
+                }
+
+                .latest-news-card-detailed {
+                    display: block;
+                    padding: 10px 0;
+                    border: 1px solid $color4;
+                    border-radius: 8px;
+                    color: $color5;
+                }
+
+                .latest-news-card-span {
+                    display: block;
+                    text-align: right;
+                    font-size: 14px;
+                }
             }
         }
 
@@ -272,15 +300,6 @@ footer {
                 }
             }
         }
-    }
-
-    .warning {
-        width: 100%;
-        padding: 20px 0;
-        font-size: 30px;
-        font-weight: bold;
-        color: $color5;
-        text-align: center;
     }
 }
 
